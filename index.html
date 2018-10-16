@@ -11,7 +11,18 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -22,10 +33,34 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <main class="container-fluid">
+    <img src="./img/left@3x.png" alt="left col" class="left">
+    <img src="./img/right@3x.png" alt="left col" class="right">
+
+    <section class="row first">
+      <div class="col-md-4 col-sm-6 text-center">
+        <img src="./img/fortune@3x.png" alt="fortune" class="img-fluid icon fortune">
+      </div>
+      <div class="col-md-4 col-sm-6 text-center">
+        <img src="./img/wizard@3x.png" alt="fortune" class="img-fluid icon fortune">
+      </div>
+      <div class="col-md-4 col-sm-6 text-center">
+        <img src="./img/bag@3x.png" alt="fortune" class="img-fluid icon fortune">
+      </div>
+    </section>
+    <section class="row second">
+      <div class="col-md-4 col-sm-6 text-center">
+        <img src="./img/cat@3x.png" alt="fortune" class="img-fluid icon fortune">
+      </div>
+      <div class="col-md-4 col-sm-6 text-center">
+        <img src="./img/clock@3x.png" alt="fortune" class="img-fluid icon fortune">
+      </div>
+      <div class="col-md-4 col-sm-6 text-center">
+        <img src="./img/hot@3x.png" alt="fortune" class="img-fluid icon fortune">
+      </div>
+    </section>
+  </main>
+
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
