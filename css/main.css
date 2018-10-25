@@ -96,11 +96,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body {
+  background: #ffffff;
+}
 main.container-fluid {
   min-height: 100vh;
   width: 100vw;
-  background-color: orange;
 }
 
 .left {
@@ -127,6 +128,100 @@ main.container-fluid {
 }
 .icon {
   max-height: 200px;
+}
+
+.small-bag {
+  display: inline;
+  max-height: 100px;
+}
+.money-body {
+  padding-top: 100px;
+}
+.pants {
+  max-height: 650px;
+}
+.coin {
+  max-height: 240px;
+}
+.wizard-small {
+  display: inline;
+  max-height: 100px;
+  margin-top: 25px;
+}
+.padding-top {
+  padding-top: 100px;
+}
+
+.left-pad {
+  padding-left: 50px;
+}
+.case1 {
+  max-width: 95%;
+  margin-top: 25px;
+}
+.case2 {
+  margin-top: 75px;
+}
+
+a.home-link {
+  color: black;
+}
+
+.wizard1 {
+  margin-top: 50px;
+}
+
+.wizard2 {
+  margin-top: 50px;
+}
+
+.wizard3 {
+  margin-top: 50px;
+}
+.with-bottom {
+  position: relative;
+  bottom: 50px;
+}
+.left-mobile {
+  display: none;
+}
+.right-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .left {
+    position: absolute;
+    height: 80vh;
+    top: 10vh;
+    left: 0px;
+  }
+  .right {
+    position: absolute;
+    height: 80vh;
+    top: 10vh;
+    right: 0px;
+  }
+  .left-mobile {
+    display: block;
+    position: absolute;
+    height: 80vh;
+    top: 80vh;
+    left: 0px;
+  }
+  .right-mobile {
+    display: block;
+    position: absolute;
+    height: 80vh;
+    top: 80vh;
+    right: 0px;
+  }
+  .with-bottom {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+  }
+  /* Style adjustments for viewports that meet the condition */
 }
 
 /* ==========================================================================

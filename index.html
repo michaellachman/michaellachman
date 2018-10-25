@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
+  <meta name="description" content="Michael Lachman Artist, based in Vancouver BC">
+  <title>Michael Lachman</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -36,27 +36,41 @@
   <main class="container-fluid">
     <img src="./img/left@3x.png" alt="left col" class="left">
     <img src="./img/right@3x.png" alt="left col" class="right">
+    <img src="./img/left@3x.png" alt="left col" class="left-mobile">
+    <img src="./img/right@3x.png" alt="left col" class="right-mobile">
 
     <section class="row first">
       <div class="col-md-4 col-sm-6 text-center">
-        <img src="./img/fortune@3x.png" alt="fortune" class="img-fluid icon fortune">
+        <a href="fortune.html">
+          <img src="./img/fortune@3x.png" alt="fortune" class="img-fluid icon fortune">
+        </a>
       </div>
       <div class="col-md-4 col-sm-6 text-center">
-        <img src="./img/wizard@3x.png" alt="fortune" class="img-fluid icon fortune">
+        <a href="wizard.html">
+          <img src="./img/wizard@3x.png" alt="wizard" class="img-fluid icon fortune">
+        </a>
       </div>
       <div class="col-md-4 col-sm-6 text-center">
-        <img src="./img/bag@3x.png" alt="fortune" class="img-fluid icon fortune">
+        <a href="money.html">
+          <img src="./img/bag@3x.png" alt="bag" class="img-fluid icon fortune">
+        </a>
       </div>
     </section>
     <section class="row second">
       <div class="col-md-4 col-sm-6 text-center">
-        <img src="./img/cat@3x.png" alt="fortune" class="img-fluid icon fortune">
+        <a href="about.html">
+          <img src="./img/cat@3x.png" alt="cat" class="img-fluid icon fortune">
+        </a>
       </div>
       <div class="col-md-4 col-sm-6 text-center">
-        <img src="./img/clock@3x.png" alt="fortune" class="img-fluid icon fortune">
+        <a href="video.html">
+          <img src="./img/clock@3x.png" alt="clock" class="img-fluid icon fortune">
+        </a>
       </div>
       <div class="col-md-4 col-sm-6 text-center">
-        <img src="./img/hot@3x.png" alt="fortune" class="img-fluid icon fortune">
+        <a href="https://sssoliciting.com">
+          <img src="./img/hot@3x.png" alt="hot" class="img-fluid icon fortune">
+        </a>
       </div>
     </section>
   </main>
@@ -64,12 +78,22 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-74286240-1', 'auto');
+    ga('send', 'pageview');
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 
 </html>
