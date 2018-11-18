@@ -108,13 +108,13 @@ main.container-fluid {
   position: absolute;
   height: 80vh;
   top: 10vh;
-  left: 50px;
+  left: 20px;
 }
 .right {
   position: absolute;
   height: 80vh;
   top: 10vh;
-  right: 50px;
+  right: 20px;
 }
 
 .first {
