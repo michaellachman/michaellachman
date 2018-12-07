@@ -117,6 +117,13 @@ main.container-fluid {
   right: 20px;
 }
 
+.last {
+  margin-bottom: 125px;
+}
+.cater {
+  max-height: 150px;
+  float: right;
+}
 .first {
   padding-top: 20vh;
   margin-left: 75px;
