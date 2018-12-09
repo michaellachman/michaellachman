@@ -124,6 +124,9 @@ main.container-fluid {
   max-height: 150px;
   float: right;
 }
+.egg {
+  max-width: 800px;
+}
 .first {
   padding-top: 20vh;
   margin-left: 75px;
